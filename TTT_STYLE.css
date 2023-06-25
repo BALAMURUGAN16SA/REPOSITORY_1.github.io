@@ -1,0 +1,277 @@
+.BOX{
+	display: flex;
+	width : 48.8%;
+	height : 700px;
+}
+
+#B1{
+	position: fixed;
+	top : 0.1em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+#B2{
+	position: fixed;
+	top : 0.1em;
+	left: 1.6em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+#B3{
+	position: fixed;
+	top : 0.1em;
+	left: 3.15em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+
+#B4{
+	position: fixed;
+	top : 1.55em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+#B5{
+	position: fixed;
+	top : 1.55em;
+	left: 1.6em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+#B6{
+	position: fixed;
+	top : 1.55em;
+	left: 3.15em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+
+#B7{
+	position: fixed;
+	top : 3em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+#B8{
+	position: fixed;
+	top : 3em;
+	left: 1.6em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+#B9{
+	position: fixed;
+	top : 3em;
+	left: 3.15em;
+	border: 2px solid black;
+	width: 16%;
+	height: 1.4em;
+	font-size: 10rem;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+}
+
+#DISPLAY{
+	position: relative;
+	left : 900px;
+	top : 100px;
+	font-family: monospace;
+	font-size: 52px;
+}
+#WIN{
+	position: relative;
+	left : 900px;
+	bottom : 400px;
+	font-family: monospace;
+	font-size: 52px;
+}
+
+#HEAD{
+	position: relative;
+	left : 900px;
+	top : 50px;
+	font-family: monospace;
+	font-size: 52px;
+}
+
+@media(max-width : 400px){
+	#B1{
+	position: fixed;
+	top : 0.2em;
+	left : 0.1em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+	#B2{
+	position: fixed;
+	top : 0.2em;
+	left : 1.75em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+	#B3{
+	position: fixed;
+	top : 0.2em;
+	left : 3.4em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+
+	#B4{
+	position: fixed;
+	top : 1.8em;
+	left : 0.1em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+	#B5{
+	position: fixed;
+	top : 1.8em;
+	left : 1.75em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+	#B6{
+	position: fixed;
+	top : 1.8em;
+	left : 3.4em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+
+	#B7{
+	position: fixed;
+	top : 3.4em;
+	left : 0.1em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+	#B8{
+	position: fixed;
+	top : 3.4em;
+	left : 1.75em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+	#B9{
+	position: fixed;
+	top : 3.4em;
+	left : 3.4em;
+	border: 2px solid black;
+	width:100px;
+	height: 1.5em;
+	font-size: 64px;
+	font-weight: 12px;
+	font-family: monospace;
+	text-align: center;
+	}
+
+	#DISPLAY{
+	position: relative;
+	top : 500px;
+	left : 0px;
+	font-family: monospace;
+	font-size: 26px;
+	}
+	#WIN{
+	background-color: #E2D1F9;
+	color: #317773;
+	text-align: center;
+	border : 2px solid black;
+	width : 90%;
+	position: relative;
+	bottom : 400px;
+	left : 0px;
+	font-family: monospace;
+	font-size: 26px;
+	}
+	#HEAD{
+	position: relative;
+	top : 500px;
+	left : 0px;
+	font-family: monospace;
+	font-size: 26px;
+	}
+
+}
