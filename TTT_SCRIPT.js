@@ -278,5 +278,5 @@ function ow(){
 
 function dw() {
 	document.getElementById('WIN').innerHTML = "IT IS A DRAW";
-	setTimeout("window.open('TTT.html','_self')",1500);
+	setTimeout("window.open('TTT.html','_self')",1000);
 }
