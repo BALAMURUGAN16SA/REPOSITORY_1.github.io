@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="LOGIN_PAGE_C.css">
+    <script src="https://kit.fontawesome.com/b30b07921b.js" crossorigin="anonymous"></script>
+    <script src="LOGIN_PAGE_J.js"></script>
+
+</head>
+
+<body>
+    <h1>BASIC LOGIN FORM</h1>
+    <div id="login-form-container">
+        <fieldset id="whole">
+            <form action="GAMES_PAGE.html">
+                <div id="username">
+                    <i class="fa fa-user" aria-hidden="true" id="icon"></i>
+                    <input type="text" name="username" id="username-input" placeholder="Username">
+                </div>
+                <div id="password">
+                    <i class="fa fa-key" id="icon"></i>
+                    <input type="password" name="password" id="password-input" placeholder="Password">
+                </div>
+
+                <div id = "captcha-user-input">
+                    <input type="text" id="captcha-user" placeholder = "Enter Captcha" onkeyup = "fun2()">
+                    <i class="" id="val"></i>
+                </div>
+
+                <div id="captcha-input">
+                    <input type = "" name="captcha-display" id="captcha-generate">
+                    <i class="fa fa-refresh" onclick="fun1()" id="refresh-icon"></i>
+                </div><br>
+
+                <button type="submit" id="login-btn" onclick="fun2()">LOGIN</button>
+
+            </form>
+            <br>
+            <a href="#" id="forget-pw">Forgot Password?</a>
+        </fieldset>
+
+    </div>
+</body>
+
+</html>

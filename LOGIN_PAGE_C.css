@@ -1,0 +1,165 @@
+body {
+    /* background-color: rgb(76, 76, 252); */
+    background-color: #023BA6;
+    color: white;
+    background-image: linear-gradient(90deg, #023BA6, #15A4C6);
+    /*    font-family: monospace;*/
+    /* background-image: linear-gradient(90deg, red, darkblue); */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 6px;
+}
+
+#login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+
+#whole {
+    border-radius: 0.9rem;
+    border: none;
+    position: absolute;
+    top: 30%;
+
+    padding: 2rem;
+    /* background-color: darkblue; */
+    background-color: #013082;
+
+
+}
+
+
+#icon {
+    /* color: rgb(34, 28, 28); */
+    color: #013082;
+
+}
+
+.fa-user,
+.fa-key {
+    font-size: 0.9rem;
+}
+
+#forget-pw {
+    font-family: sans-serif;
+
+}
+
+#refresh-icon {
+    background-color: white;
+    color: #013082;
+}
+
+#refresh-icon:active {
+    transition: 0.7s;
+    transform: rotate(360deg);
+}
+
+#captcha-user-input{
+    display: inline;
+    display: flex;
+    width: 100%;
+}
+
+#captcha-input {
+    display: inline;
+    display: flex;
+    width: 100%;
+}
+
+#username,
+#password,
+#captcha,
+#captcha-user-input,
+#captcha-input {
+    background-color: white;
+    padding: 0.3rem;
+    width: 25rem;
+    margin-bottom: 0.5rem;
+    height: 1.5rem;
+
+}
+
+#captcha-user {
+    width: 23.8rem;
+    border-style: none;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+#captcha-generate {
+    width: 23.8rem;
+    border-style: none;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+
+
+#forget-pw:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+#captcha {
+    font-size: 0.9rem;
+    outline: none;
+}
+
+/* 
+#captcha-input{
+    height: 1rem;
+} */
+
+#username-input,
+#password-input {
+    background-color: white;
+    padding-left: 0.5rem;
+    width: 17.1rem;
+    border: none;
+    height: 1 rem;
+    font-size: 0.9rem;
+    border-color: white;
+    border: white;
+    outline: none;
+
+}
+
+#login-btn {
+    width: 25.5rem;
+    background-color: rgb(0, 191, 255);
+    border-style: none;
+    padding: 0.5rem;
+    color: white;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+
+}
+
+
+#login-btn:hover {
+    transform: scale(0.96);
+    transition: 0.5s;
+    background-color : darkblue;
+    color : rgb(0, 191, 255);
+}
+
+#captcha {
+    border-style: none;
+}
+
+
+#forget-pw {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

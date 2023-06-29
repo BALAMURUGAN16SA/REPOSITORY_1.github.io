@@ -179,49 +179,73 @@ function xw(){
 	if((pos['1'] == 'X') && (pos['2'] == 'X') && (pos['3'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B1').style.backgroundColor = "lightskyblue";
+		document.getElementById('B2').style.backgroundColor = "lightskyblue";
+		document.getElementById('B3').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['4'] == 'X') && (pos['5'] == 'X') && (pos['6'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B4').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B6').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['7'] == 'X') && (pos['8'] == 'X') && (pos['9'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B7').style.backgroundColor = "lightskyblue";
+		document.getElementById('B8').style.backgroundColor = "lightskyblue";
+		document.getElementById('B9').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['1'] == 'X') && (pos['4'] == 'X') && (pos['7'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B1').style.backgroundColor = "lightskyblue";
+		document.getElementById('B4').style.backgroundColor = "lightskyblue";
+		document.getElementById('B7').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['2'] == 'X') && (pos['5'] == 'X') && (pos['8'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B2').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B8').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['3'] == 'X') && (pos['6'] == 'X') && (pos['9'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B3').style.backgroundColor = "lightskyblue";
+		document.getElementById('B6').style.backgroundColor = "lightskyblue";
+		document.getElementById('B9').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['1'] == 'X') && (pos['5'] == 'X') && (pos['9'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B1').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B9').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['3'] == 'X') && (pos['5'] == 'X') && (pos['7'] == 'X')){
 		document.getElementById('WIN').innerHTML = "X WINS";
 		x = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B3').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B7').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 }
 
@@ -230,53 +254,77 @@ function ow(){
 	if((pos['1'] == '0') && (pos['2'] == '0') && (pos['3'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B1').style.backgroundColor = "lightskyblue";
+		document.getElementById('B2').style.backgroundColor = "lightskyblue";
+		document.getElementById('B3').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['4'] == '0') && (pos['5'] == '0') && (pos['6'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B4').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B6').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['7'] == '0') && (pos['8'] == '0') && (pos['9'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B7').style.backgroundColor = "lightskyblue";
+		document.getElementById('B8').style.backgroundColor = "lightskyblue";
+		document.getElementById('B9').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['1'] == '0') && (pos['4'] == '0') && (pos['7'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B1').style.backgroundColor = "lightskyblue";
+		document.getElementById('B4').style.backgroundColor = "lightskyblue";
+		document.getElementById('B7').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['2'] == '0') && (pos['5'] == '0') && (pos['8'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B2').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B8').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['3'] == '0') && (pos['6'] == '0') && (pos['9'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B3').style.backgroundColor = "lightskyblue";
+		document.getElementById('B6').style.backgroundColor = "lightskyblue";
+		document.getElementById('B9').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['1'] == '0') && (pos['5'] == '0') && (pos['9'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B1').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B9').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 
 	else if((pos['3'] == '0') && (pos['5'] == '0') && (pos['7'] == '0')){
 		document.getElementById('WIN').innerHTML = "0 WINS";
 		o = 1;
-		setTimeout("window.open('TTT.html','_self')",1000);
+		document.getElementById('B3').style.backgroundColor = "lightskyblue";
+		document.getElementById('B5').style.backgroundColor = "lightskyblue";
+		document.getElementById('B7').style.backgroundColor = "lightskyblue";
+		setTimeout("window.open('TTT1.html','_self')",1000);
 	}
 }
 
 function dw(){
 	document.getElementById('WIN').innerHTML = "IT IS A DRAW";
-	setTimeout("window.open('TTT.html','_self')",1000);
+	setTimeout("window.open('TTT1.html','_self')",1000);
 }
